@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+}
+
+/* header div style start */
+
+.top-section {
+  height: 48px;
+  padding: 0px 4px 0px 32px;
+}
+
+.top-section ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+}
+
+.top-section ul li {
+  padding: 12px 12px;
+  font-size: 13px;
+}
+
+.top-section ul li a {
+  color: black;
+  text-decoration: none;
+}
+.top-section a:hover {
+  text-decoration: underline;
+}
+
+/* header div style end */
+
+/* middle div style start */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%;
+  height: 46px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.search:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  width: 445px;
+  font-size: 1rem;
+  cursor: text;
+  line-height: 22px;
+}
+
+.suggestion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px;
+  gap: 50px;
+}
+
+.suggestion div {
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.suggestion div:hover {
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+.offered {
+  font-size: 13px;
+  padding: 20px;
+}
+
+/* middle div style end */
+
+/* footer style start */
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.country-name {
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #f0f0f0;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-nav ul li {
+  padding: 15px;
+  font-size: 14px;
+}
+.footer-nav ul li a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+/* footer style end */
